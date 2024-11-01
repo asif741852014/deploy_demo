@@ -1,0 +1,12 @@
+name: Deployment Workflow
+
+on:
+  deployment:           # Trigger this workflow on a deployment event
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
