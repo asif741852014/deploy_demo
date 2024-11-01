@@ -49,7 +49,7 @@ jobs:
           git remote add heroku https://git.heroku.com/abcdef.git
       - name: Push to Heroku
         run: git push heroku main
-        - name: Mark Deployment as Success
+      - name: Mark Deployment as Success
         if: success()
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
