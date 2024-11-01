@@ -1,0 +1,8 @@
+name: abc
+on:
+  deployment_status:
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "hi my name is mohammed asif tk from deployment_status and 2 times"

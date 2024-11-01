@@ -8,5 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - run: echo "hi my name is asif from deployment only once"
